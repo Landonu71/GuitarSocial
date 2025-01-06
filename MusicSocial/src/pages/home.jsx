@@ -1,20 +1,21 @@
+import LeftBar from '../components/leftBar/leftBar';
+import NavBar from '../components/navBar/navBar';
+import RightBar from '../components/rightBar/rightBar';
+
+
 function Home(){
     return(
-        <div>
-            <div class='header'>
-                <h1>Home</h1>
-                <h1>THis worked</h1>
-                <h1>Follow Us</h1>
-                <h1>Cart</h1>
-            </div>
-            <div class='header2'>
-                <h1 class='header-item'>Product</h1>
-                <h1 class='header-item'>Product</h1>
-                <h1 class='header-item'>Product</h1>
-                <h1 class='header-item'>Product</h1>
-            </div>
+    <div>
+        <NavBar/>
+        <div class = "flex-row">
+            <LeftBar/>
             
+            <RightBar/>
         </div>
+        <p>Hello</p>
+    </div>
+     
+   
     )
 }
 export default Home
