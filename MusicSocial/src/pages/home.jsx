@@ -34,7 +34,7 @@ const InfiniteVideoScroll = () => {
 
       // Cleanup observer when component unmounts
       return () => observer.disconnect();
-    }
+    } 
   };
 
   // Initial load
